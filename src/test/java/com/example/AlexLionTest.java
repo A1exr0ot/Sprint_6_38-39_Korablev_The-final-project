@@ -38,7 +38,7 @@ public class AlexLionTest {
     }
 
     @Test
-    public void getPlaceOfLiving() {
+    public void getPlaceOfLivingTest() {
         Assert.assertEquals(
                 "Нью-Йоркский зоопарк",
                 alex.getPlaceOfLiving()
@@ -46,7 +46,7 @@ public class AlexLionTest {
     }
 
     @Test
-    public void getKittens() {
+    public void getKittensTest() {
         Assert.assertEquals(
                 0,
                 alex.getKittens()
@@ -54,7 +54,7 @@ public class AlexLionTest {
     }
 
     @Test
-    public void getFood() throws Exception {
+    public void getFoodTest() throws Exception {
         Mockito.when(feline.getFood(PREDATOR)).thenReturn(LIONS_FOOD);
 
         Assert.assertEquals(
@@ -73,7 +73,7 @@ public class AlexLionTest {
     }
 
     @Test
-    public void doesHaveMane() {
+    public void doesHaveManeTest() {
         Assert.assertTrue(alex.doesHaveMane());
     }
 

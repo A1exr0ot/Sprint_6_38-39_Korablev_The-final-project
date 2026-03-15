@@ -18,15 +18,6 @@ public class LionTest {
     private Lion lion;
     private Feline feline;
 
-
-    @Parameterized.Parameters(name = "{0}")
-    public static Collection<Object[]> data() {
-        return Arrays.asList(new Object[][]{
-                {"Самец", true},
-                {"Самка", false},
-        });
-    }
-
     @Before
     public void setUp() throws Exception {
         feline = Mockito.mock(Feline.class);

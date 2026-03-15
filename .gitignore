@@ -25,6 +25,4 @@ hs_err_pid*
 
 # ide
 .idea
-/src/test/java/read.me
-/src/main/resources/
 /.idea/

@@ -36,7 +36,7 @@ public class LionHasManeTest {
     }
 
     @Test
-    public void doesHaveMane() {
+    public void doesHaveManeTest() {
         Assert.assertEquals(
                 hasMane ,
                 lion.doesHaveMane()
